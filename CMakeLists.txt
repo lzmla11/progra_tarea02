@@ -16,13 +16,6 @@ target_include_directories(core_numeric INTERFACE
 )
 
 # ========================
-# Ejecutable principal (opcional)
-# ========================
-add_executable(main src/main.cpp)
-
-target_link_libraries(main core_numeric)
-
-# ========================
 # Tests
 # ========================
 
